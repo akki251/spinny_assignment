@@ -10,6 +10,9 @@ const Search = () => {
   const handleSearchHandler = (event) => {
     event.preventDefault();
     const searchQuery = inputRef.current.value;
+
+    if (!searchQuery.trim().length) return;
+
     dispatch(getResults(searchQuery));
   };
 
