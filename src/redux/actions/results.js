@@ -18,7 +18,7 @@ export const getResults =
         type: 'FETCH_RESULTS',
         payload: {
           results: data,
-          isMoreData: page !== 1,
+          isMoreData: page !== 1, // is page is not equal to first, that means new data is requested
         },
       });
       dispatch({
