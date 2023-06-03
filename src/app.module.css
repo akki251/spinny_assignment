@@ -1,0 +1,15 @@
+.main {
+  background-color: hsl(206, 74%, 44%);
+  min-height: 100vh;
+  padding: 0 3rem;
+  font-size: 62.5%;
+}
+.search-section {
+  padding: 2rem 0rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  background-color: hsl(206, 74%, 44%);
+
+  left: 0;
+}
