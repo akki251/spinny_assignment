@@ -15,6 +15,10 @@ const Result = () => {
 
   if (loading) return <p className={styles.loading}> Loading results </p>; // Displaying loading message if results are still loading
 
+  if (!query) {
+    return <p className={styles.empty}>Please enter any query</p>;
+  }
+
   if (!resultsDisplay?.length) {
     return <p className={styles.empty}>No Results found</p>;
   }

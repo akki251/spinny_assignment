@@ -53,6 +53,7 @@
   border: 2px solid whitesmoke;
   color: white;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .empty {
